@@ -1,0 +1,61 @@
+/*************************/
+/* CONTAINERS */
+/*************************/
+
+
+/* CONTAINER DEFAULT */
+
+.container{
+    
+    @apply w-full;
+    @apply lg:w-3/4;
+    
+    @apply mx-auto;
+    @apply px-6;
+
+
+    
+}
+
+.container-sm{
+    @apply w-full;
+    @apply lg:w-3/5;
+    @apply xl:w-2/5;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************************/
+/* SINGLE SPECIFIC BLOCKS */
+/*************************/
+
+
+/* BLACKOUT */
+
+#blackout{
+
+    @apply fixed;
+    @apply left-0;
+    @apply top-0;
+
+    @apply w-screen;
+    @apply h-screen;
+
+    @apply bg-black;
+    @apply bg-opacity-80;
+
+    @apply z-20;
+
+    @apply animate-300;
+
+}
+
+

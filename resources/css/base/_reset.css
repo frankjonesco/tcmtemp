@@ -1,0 +1,54 @@
+/**********************************/
+/* RESET BROWSER STYLING DEFAULTS */
+/**********************************/
+
+
+*, 
+*:before,
+*:after{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+
+html{
+
+    box-sizing: border-box;
+
+}
+
+
+
+
+/**********************************/
+/* NATURAL HTML PAGE ELEMENTS */
+/**********************************/
+
+
+
+/* BODY */
+
+body{
+
+    @apply w-screen;
+    @apply h-screen;
+
+    @apply flex;
+    @apply flex-col;
+
+}
+
+
+/* MAIN */
+
+main{
+    
+    @apply my-20;
+    @apply py-5;
+
+    @apply grow;
+    
+}

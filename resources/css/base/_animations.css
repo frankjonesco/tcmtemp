@@ -1,0 +1,78 @@
+/**************************/
+/* ANIMATION SPEEDS */
+/**************************/
+
+
+.animate{
+
+    @apply transition-all;
+    @apply duration-150;
+
+}
+
+
+.animate-150{
+
+    @apply animate;
+    @apply ease-in;
+
+}
+
+
+.animate-300{
+
+    @apply animate;
+    @apply duration-300;
+
+}
+
+
+
+
+/*************************/
+/* HOVER ANIMATIONS */
+/*************************/
+
+
+.hover-dip{
+
+    @apply animate-150;
+    @apply inline-block;
+    @apply hover:translate-y-1;
+
+}
+
+
+.hover-rise{
+
+    @apply animate-150;
+    @apply inline-block;
+    @apply hover:-translate-y-1;
+
+}
+
+
+.hover-inflate{
+
+    @apply animate-150;
+    @apply inline-block;
+    @apply hover:scale-105;
+
+}
+
+
+.hover-spin{
+
+    @apply animate-300;
+    @apply inline-block;
+    @apply hover:rotate-90;
+
+}
+
+
+.hover-text-red{
+
+    @apply animate-150;
+    @apply hover:text-red-500;
+
+}
